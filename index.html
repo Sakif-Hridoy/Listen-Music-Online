@@ -49,8 +49,8 @@
             <div class="search-bar col-md-6 mx-auto">
                 <h1 class="text-center">Hard Rock Lyric Search</h1>
                 <div class="search-box my-5">
-                    <input type="text" class="form-control" placeholder="Enter your artist song name">
-                    <button class="btn btn-success search-btn">Search</button>
+                    <input id="search-field" type="text" class="form-control" placeholder="Enter your artist song name">
+                    <button onclick="searchSongs()" class="btn btn-success search-btn">Search</button>
                 </div>
             </div>
             <!-- Single Lyrics -->
@@ -71,6 +71,7 @@
         </main>
     </div>
     <!-- Optional JavaScript -->
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
