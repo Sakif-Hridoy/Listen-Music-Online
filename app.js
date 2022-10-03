@@ -6,5 +6,10 @@ const searchSongs =()=>{
 
     fetch(url)
     .then(res=>res.json())
-    .then(data=> console.log(data))
+    .then(data=> displaySongs(data.data))
+}
+
+
+const displaySongs = songs =>{
+    songs.forEach(song=> console.log(song))
 }
